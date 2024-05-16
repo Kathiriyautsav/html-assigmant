@@ -1,0 +1,62 @@
+<!doctype html>
+<html>
+    <head>
+        <title>form</title>
+    </head>
+    <body bgcolor="pink">
+    
+        <form action="welcome.html">
+
+        <fieldset style="border: 9px solid rgba(0, 26, 255, 0.469);">            
+        <legend align="center" style="blue"><h2 style="color:red"> personal information </h2></legend>
+         FIRST NAME :&nbsp;&nbsp;&nbsp;  <input type="text" name="fname" placeholder="enter firs tname" required><br><br>
+         MIDEL NAME :&nbsp;  <input type="text" name="mname" placeholder="enter midel name" required><br><br>
+         SURENAME   :&nbsp;&nbsp;&nbsp;  <input type="text" name="sname" placeholder="enter sure name" required><br><br>
+         D.O.B. &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;    :&nbsp;&nbsp;&nbsp;&nbsp;<input type="date" name="dt" placeholder="D.O.B."><br><br>     
+         GENDER&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;: male <input type="radio" name="gender" value="male" checked>&nbsp; &nbsp; &nbsp; &nbsp; 
+                 female <input type="radio" name="gender" value="female" checked>&nbsp;&nbsp;&nbsp;&nbsp;
+                 other <input type="radio" name="gender" value="other" checked><br><br>
+         CONTACT NO.:<input type="tel" name="contact no." pattern="[0-9]{10}" placeholder="enter contact number"required> <br><br>
+         E-MAIL&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:<input type="email" name="email" placeholder="enter e-mail" required><br><br>      
+         HOBBIES&nbsp;&nbsp;&nbsp;:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;cricket<input type="checkbox" name="hobbies" value="cricket">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+         football<input type="checkbox" name="hobbies" value="football">&nbsp;&nbsp;&nbsp;
+         kabbadi<input type="checkbox" name="hobbies" value="kabbadi"><br><br>
+         AGE&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  <select>
+            <optgroup lable="age">
+                <option value="18">18</option>
+                <option value="19">19</option>
+                <option value="20">20</option>
+                <option value="21">21</option>
+                <option value="22">22</option>
+                <option value="23">23</option>
+                <option value="24">24</option>
+                <option value="25">25</option>
+            </optgroup>
+         </select><br><br>
+         ADDRESS:<pre> <textarea rows="10" cols="35"></textarea></pre><BR><BR> 
+        </fieldset>
+        <fieldset style="border:9px solid rgba(0, 0, 255, 0.463);">
+            <legend align="center"> <h2 style="color:red">educational detail</h2></legend>
+            select courc: <select>
+                <optgroup label="degree">
+                    <option value="B.C.A.">B.C.A.</option>
+                    <option value="B.B.A.">B.B.A.</option>
+                    <option value="B.COM.">B.COM.</option>
+                    <option value="B.Sc.">B.Sc.</option>
+                    <option value="B.Sc.IT">B.Sc.IT.</option>
+                    <option value="B.TEC.">B.TEC.</option>
+                    <option value="B.PHARM.">B.PHARM</option>
+
+                </optgroup>
+            </select><BR><BR>
+                persentage: <input type="text" name="persentage" placeholder="enter persentage"  pattern="[0-9]{2}"><br><br>
+                password: <input type="password" name="pwd" placeholder="choos password" pattern="[0-9]{6}"><br><br>
+                confirm password:<input type="password" name="pwd" placeholder="confirm password" pattern="[0-9]{6}"><br><br>
+
+        </fieldset><br><br>
+        <button style="color:red ;" type="cancle">cancle </button> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <button style="color:green ;" type="submit">submit </button>
+        
+        </form>
+        </body>
+</html>

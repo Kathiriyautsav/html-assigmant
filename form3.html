@@ -1,0 +1,40 @@
+<!doctype html>
+<html>
+    <head>
+        <title>form</title>
+    </head>
+    <body bgcolor="sky blue">
+    
+        <form action="welcome.html">
+            <h2 align="center">personal details</h2>
+            <hr  color="brown" width="500"><br><br><br>
+             NAME:<input type="text"><br><br>
+             password:<input type="password" pattern="(0-4),{4}">
+             <br><br>
+             E-mail Id :<input type="email"><br><br>
+             gender: <input type="radio">male
+             <input type="radio">female <br><br>
+             contect:<input type="number" pattern="(0-9),{10}"><br><br><br><br>
+             <h2 align="center">education qulification</h2>
+             degree<select>
+                <optgroup label="degree">
+                    <option value="B.C.A." aria-placeholder="select group">B.C.A.</option>
+                    <option value="B.COM">B.COM</option>
+                    <option value="B.B.A.">B.B.A.</option>
+                </optgroup>
+             </select><br><br>
+             engineering: <select>
+                <optgroup label ="select group">
+                    <option value="mechenicle engineering">mechenicle engineering</option>
+                    <option value="chemicle engineering">chemicle  engineering</option>
+                    <option value="softwar engineering">softwar engineering</option>
+                    <option value="computer engineering">computer engineering</option>
+                </optgroup>
+             </select><br><br>
+             hobbies: <input type="checkbox">playing chess
+             <input type="checkbox">reading books<br><br>
+             address:<textarea rows="10"cols="30"></textarea><br><br>
+             attch resume:<input type="file" value="submit" placeholder="choose file"
+required><br><br><br><br>
+<button style="color:green ;" type="submit &RightTeeArrow;">submit </button>
+             
